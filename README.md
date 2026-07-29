@@ -1,70 +1,178 @@
-# GuardianAI-Intrusion-Detection
-AI-powered intrusion detection system using Python, OpenCV, motion detection, ROI-based monitoring, Telegram alerts, snapshot capture, and automatic video recording.
+<div align="center">
 
-# GuardianAI - Intrusion Detection System
+# 🛡️ GuardianAI - Intrusion Detection System
 
-An AI-powered intrusion detection system developed using Python and OpenCV for smart home security.
+### 🚨 AI-Powered Smart Home Intrusion Detection using Python & OpenCV
 
-## Features
+Detects unauthorized entry, captures evidence, records video, and instantly sends Telegram alerts.
 
-- Motion Detection
-- Door ROI (Polygon Boundary)
-- Intrusion Detection
-- Snapshot Capture
-- 10-Second Video Recording
-- Telegram Alert Notification
-- Alarm Sound
-- Timestamp Logging
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green?style=for-the-badge&logo=opencv)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)
 
-## Technologies
+</div>
 
-- Python
-- OpenCV
-- NumPy
-- Telegram Bot API
+---
 
-## Project Structure
+# 📖 Overview
 
-src/
-- main.py
-- config.py
-- telegram_alert.py
-- door_polygon.npy
+GuardianAI is an AI-powered smart surveillance module that monitors a predefined door region and immediately alerts the owner whenever an intrusion is detected.
 
-output/
-- Captured snapshots
-- Recorded videos
+The system automatically:
 
-## Installation
+- 🚨 Detects motion inside the protected door region
+- 📸 Captures an evidence snapshot
+- 🎥 Records a 10-second video
+- 📲 Sends instant Telegram notifications
+- 🔊 Plays an alarm
+- 🕒 Stores the event with date and time
+
+---
+
+# ✨ Features
+
+| Feature | Status |
+|----------|--------|
+| 🚶 Motion Detection | ✅ |
+| 🚪 Door ROI Detection | ✅ |
+| 🚨 Intrusion Alert | ✅ |
+| 📸 Snapshot Capture | ✅ |
+| 🎥 Automatic Video Recording | ✅ |
+| 📲 Telegram Notifications | ✅ |
+| 🔊 Alarm Sound | ✅ |
+| 🕒 Timestamp Logging | ✅ |
+
+---
+
+# 🖼️ Demo
+
+> *(Add screenshots or GIFs here)*
+
+## Detection
+
+![Detection](assets/detection.png)
+
+## Telegram Alert
+
+![Telegram](assets/telegram.png)
+
+---
+
+# ⚙️ Tech Stack
+
+- 🐍 Python
+- 👁️ OpenCV
+- 🔢 NumPy
+- 🤖 Telegram Bot API
+
+---
+
+# 📂 Project Structure
+
+```text
+GuardianAI-Intrusion-Detection
+│
+├── src/
+│   ├── main.py
+│   ├── config.py
+│   ├── telegram_alert.py
+│   ├── door_polygon.npy
+│   └── alarm.wav
+│
+├── output/
+│
+├── assets/
+│
+├── requirements.txt
+├── README.md
+└── LICENSE
+```
+
+---
+
+# 🚀 Installation
 
 ```bash
+git clone https://github.com/yourusername/GuardianAI-Intrusion-Detection.git
+
+cd GuardianAI-Intrusion-Detection
+
 pip install -r requirements.txt
 ```
 
-## Run
+---
+
+# ▶️ Run
 
 ```bash
 python src/main.py
 ```
 
-## Workflow
+---
 
-1. Define the door region.
-2. Detect motion.
-3. Check whether motion enters the selected ROI.
-4. Trigger an alarm.
-5. Save a snapshot.
-6. Record a 10-second video.
-7. Send alerts through Telegram.
+# 🔄 Workflow
 
-## Future Improvements
+```text
+Camera
+   │
+   ▼
+Motion Detection
+   │
+   ▼
+Door ROI Check
+   │
+   ▼
+Intrusion Detected
+   │
+   ├────────► 🔊 Alarm
+   ├────────► 📸 Snapshot
+   ├────────► 🎥 Record Video
+   └────────► 📲 Telegram Alert
+```
 
-- YOLO Person Detection
-- Multi-Person Tracking
-- Face Recognition
-- Cloud Database Integration
-- Mobile Application
+---
 
-## License
+# 📸 Output
 
-MIT License
+```
+output/
+├── intruder_20260729_103501.jpg
+└── intrusion_20260729_103501.mp4
+```
+
+---
+
+# 💡 Future Enhancements
+
+- 🎯 YOLOv8 Person Detection
+- 👤 Face Recognition
+- 🔥 Fire & Smoke Detection
+- 🚶 Fall Detection
+- 📱 Android Companion App
+- ☁️ Cloud Storage
+- 📊 Live Monitoring Dashboard
+
+---
+
+# 🤝 Contributing
+
+Contributions, suggestions, and improvements are always welcome.
+
+If you find this project useful, feel free to **⭐ Star** the repository.
+
+---
+
+# 📜 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+<div align="center">
+
+### ⭐ If you like this project, don't forget to Star the repository ⭐
+
+Made with ❤️ using Python & OpenCV
+
+</div>
