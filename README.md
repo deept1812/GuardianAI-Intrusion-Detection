@@ -1,4 +1,4 @@
-<div align="center">
+<img width="1046" height="577" alt="image" src="https://github.com/user-attachments/assets/4508f29a-1012-4f71-836b-3a5083ea3a45" /><div align="center">
 
 # 🛡️ GuardianAI - Intrusion Detection System
 
@@ -47,15 +47,14 @@ The system automatically:
 
 # 🖼️ Demo
 
-> *(Add screenshots or GIFs here)*
+> <img width="1046" height="577" alt="image" src="https://github.com/user-attachments/assets/b0cc11e7-1b75-4c85-89b9-1e42ebf8d029" />
 
-## Detection
 
-![Detection](assets/detection.png)
 
 ## Telegram Alert
 
-![Telegram](assets/telegram.png)
+![Telegram](<img width="767" height="445" alt="image" src="https://github.com/user-attachments/assets/393577b0-6a5c-40c5-9ab9-8ab00c51633b" />
+g)
 
 ---
 
