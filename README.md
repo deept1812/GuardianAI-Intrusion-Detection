@@ -47,7 +47,8 @@ The system automatically:
 
 # 🖼️ Demo
 
-> <img width="1046" height="577" alt="image" src="https://github.com/user-attachments/assets/b0cc11e7-1b75-4c85-89b9-1e42ebf8d029" />
+><img width="967" height="521" alt="image" src="https://github.com/user-attachments/assets/e44e9c81-e7a2-407e-bf4e-a90b0f6f61ea" />
+
 
 
 
